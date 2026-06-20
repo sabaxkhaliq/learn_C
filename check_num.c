@@ -4,18 +4,18 @@
 
 int main()
 {
-    int a;
+    int num;
 
     printf("Enter a Number: ");
-    scanf("%d", &a);
+    scanf("%d", &num);
 
-    if (a > 50)
+    if (num > 50)
     {
-        printf("A is greater than 50");
+        printf("Number is greater than 50");
     }
     else
     {
-        printf("A is less than or equal to 50");
+        printf("number is less than or equal to 50");
     }
 
    
